@@ -178,12 +178,44 @@ border-radius: 30px;
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 1rem;
-  transition: border 0.3s ease;
 }
 
+/* footer */
+.footer{
+    width: 1440px;
+    height: 250px;
+    background-color: azure;
+}
 
+.footer ul li{
+    list-style: none;
+    
+}
+.footer ul li a{
+    text-decoration: none;
+    padding-left: 15px;
+    
+}
+.footer ul li a:hover{
+    color: green;
+    
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 35px;
+}
 
+.footer-section{
+    text-align: center;
+    margin: 0px 420px;
+    width: 530px;
+    height:221px ;
 
+}
+.list-items{
+    display: flex;
+    gap: 40px;
+}
 
 
 
