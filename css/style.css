@@ -145,3 +145,45 @@ border-radius: 30px;
     margin: 5px;
     padding: 5px;
 }
+
+/* What Our Users Say */
+.user-full-information{
+    display: flex;
+    justify-content: space-around;
+}
+.avatar-name{
+    display: flex;
+}
+
+
+/* Form */
+.full-form{
+    display: flex;
+    gap: 80px;
+    text-align: left;
+    background-color: #F5F8FF;
+}
+.form-title{
+    font-size: 97px;
+    font-weight: bold;
+    padding: 0px 50px;
+}
+.form-info{
+    padding: 80px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+
+
+
+
+
+
+
