@@ -8,6 +8,16 @@
   font-style: normal;
 }
 /* common Style */
+
+/* main{
+    max-width: 1440px;
+    margin: 0 auto;
+} */
+section{
+    max-width: 1140px;
+    margin: 130px 141px;
+}
+
 .text-primary{
     color: #FF4401;
 }
@@ -20,11 +30,19 @@ color: #000000;
     color: white;
     padding: 10px 34px;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 20px;
 }
 .btn-primary:hover{
     background-color: #0000ff;
+}
+
+/* header */
+.header{
+    background-image: url('../img/Assets/Hero-bg.png');
+    width: 1440px;
+    height: 550px;
+
 }
 /* nav style */
 nav{
@@ -49,4 +67,81 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+.banner{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 180px 275.5px 142px 267.5px;
+    width: 905px;
+    height: 237px;
+}
+.banner-title{
+    margin-bottom: 0px;
+}
+/* ============ */
+
+.action{
+    display:flex;
+    /* justify-content: space-between; */
+    gap: 150px;
+    width: 1140px;
+    height: 328px;
+}
+
+.section-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #111111;
+    margin-top: 80px;
+}
+
+.section-description{
+    font-size: 16px;
+    color: #222222;
+    margin: 10px 0px;
+}
+
+.action-details{
+    margin-bottom: 120px;
+    width: 417px;
+    height: 103px;
+    padding-left: 141px;
+    text-align: left;
+
+}
+
+.action img{
+/* margin-top: 10px; */
+width: 303px;
+height: 280px;
+border-radius: 30px;
+}
+
+/* Productive Users */
+.productive{
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+    width: 856px;
+    height: 206px;
+    margin: 141px;
+    border-radius: 25px;
+}
+.productive-user{
+    display: flex;
+    gap: 50px;
+    padding-left: 180px;
+}
+.user-details h3{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0 10px;
+    color: blue;
+}
+.user-details p{
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
 }
